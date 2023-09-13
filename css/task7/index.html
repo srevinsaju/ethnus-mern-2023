@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Task 7 - 21BCE5841</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      table.regid {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      table.regid th,
+      table.regid td {
+        text-align: left;
+        padding: 8px;
+        border: black 1px solid;
+      }
+    </style>
+
+    <style>
+      body {
+        background-color: #a22b55;
+        color: white;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background-color: #75203f;
+        padding: 20px;
+      }
+      input.fullwidth {
+        width: 98%;
+      }
+
+      table.task {
+        width: 100%;
+        border-spacing: 0.5em;
+      }
+      table.task th,
+      table.task td {
+        text-align: left;
+      }
+
+      table.task td.center {
+        text-align: left;
+        font-weight: bold;
+      }
+
+      h1.task {
+        color: blue;
+        text-align: center;
+        font-weight: bolder;
+      }
+
+      button {
+        border-radius: 1em;
+        font-size: larger;
+        font-weight: bold;
+        padding: 8px;
+      }
+      input {
+        padding: 8px;
+      }
+      select {
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <h1>Task 7</h1>
+
+      <table class="regid">
+        <tr>
+          <td>Registration number</td>
+          <td>21BCE5841</td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td>Srevin Saju</td>
+        </tr>
+      </table>
+      <br />
+
+      <div class="container">
+        <table class="task">
+          <tr>
+            <td class="center">Name:</td>
+            <td><input class="fullwidth" placeholder="Your name" /></td>
+          </tr>
+          <tr>
+            <td class="center">Email:</td>
+            <td>
+              <input class="fullwidth" type="email" placeholder="Your email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td class="center">Password:</td>
+            <td><input class="fullwidth" type="password" /></td>
+          </tr>
+          <tr>
+            <td class="center">Phone number:</td>
+            <td><input class="fullwidth" /></td>
+          </tr>
+          <tr>
+            <td class="center">Gender</td>
+            <td>
+              <label for="male">Male</label>
+              <input id="male" type="radio" />
+
+              <label for="female">Female</label>
+              <input id="female" type="radio" />
+
+              <label for="other">Other</label>
+              <input id="other" type="radio" />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td class="center">Language</td>
+            <td>
+              <select>
+                <option class="fullwidth" value="Select language">
+                  Select language
+                </option>
+
+                <option class="fullwidth" value="Hindi">Hindi</option>
+                <option class="fullwidth" value="English">English</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="center">Zip Code:</td>
+            <td><input class="fullwidth" /></td>
+          </tr>
+
+          <tr>
+            <td class="center">About:</td>
+            <td>
+              <textarea
+                class="fullwidth"
+                placeholder="Write about yourself..."
+                style="height: 100px"
+              >
+              </textarea>
+            </td>
+          </tr>
+        </table>
+        <br />
+        <div class="text-align: center">
+          <button style="width: 100%">Register</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

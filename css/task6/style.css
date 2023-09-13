@@ -1,0 +1,52 @@
+input#login:hover,
+input#cancel:hover {
+  background-color: black;
+  color: white;
+}
+input#login {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  padding: 1em;
+  border: none;
+  width: 100%;
+}
+input#cancel {
+  font-weight: bold;
+  color: white;
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+  border: none;
+  border-radius: 0.75em;
+}
+a.forgot {
+  color: black;
+}
+span.forgot {
+  float: right;
+  padding-top: 10px;
+}
+
+input#text {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label#label {
+  font-weight: bold;
+}
+
+.footer {
+  padding: 16px;
+  border-top: 1px solid rgb(168, 168, 168);
+}
+
+.profileimg {
+  text-align: center;
+}
+img.profile_pic {
+  width: 38%;
+  border-radius: 50%;
+}
